@@ -1,8 +1,10 @@
 package com.crntech.Todos.service;
 
 import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.stereotype.Service;
 
 import java.util.Map;
+
 
 public interface JwtService {
     String extractUsername(String token);
